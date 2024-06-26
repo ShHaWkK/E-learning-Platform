@@ -13,8 +13,6 @@ An advanced e-learning platform for managing courses, students, and evaluations,
   - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 

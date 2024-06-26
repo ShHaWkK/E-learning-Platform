@@ -11,5 +11,6 @@ namespace E_Learning_Backend.Models
         // Navigation properties
         public ICollection<Module> Modules { get; set; }
         public ICollection<User> Students { get; set; }
+        public ICollection<Evaluation> Evaluations { get; set; } 
     }
 }

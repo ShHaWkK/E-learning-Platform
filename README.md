@@ -112,3 +112,6 @@ User Endpoints
     POST /api/course
     PUT /api/course/{id}
     DELETE /api/course/{id}
+
+## Swagger UI
+![image](https://github.com/ShHaWkK/E-learning-Platform/assets/51519814/908fabaf-d4e8-4422-9464-7150f2f46de3)

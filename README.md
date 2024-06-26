@@ -56,3 +56,59 @@ An advanced e-learning platform for managing courses, students, and evaluations,
 
     Update the connection string in **appsettings.json**
 
+```json
+{
+      "ConnectionStrings": {
+        "DefaultConnection": "Server=localhost;Database=ELearningDb;User=root;Password=;TreatTinyAsBoolean=true;"
+      },
+      "Logging": {
+        "LogLevel": {
+          "Default": "Information",
+          "Microsoft": "Warning",
+          "Microsoft.Hosting.Lifetime": "Information"
+        }
+      },
+      "AllowedHosts": "*"
+    }
+```
+
+
+4. Install dependencies and run migrations
+
+```bash
+
+dotnet restore
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+
+## Run the application
+
+```bash
+
+    dotnet run
+
+    Navigate to the application
+
+    Open your browser and go to https://localhost:5001.
+```
+### Usage
+
+    API Endpoints: The application exposes several API endpoints for managing users, courses, modules, lessons, evaluations, submissions, messages, and notifications. Detailed documentation for each endpoint is available in the API Documentation.
+
+### API Endpoints
+User Endpoints
+
+    GET /api/user
+    GET /api/user/{id}
+    POST /api/user
+    PUT /api/user/{id}
+    DELETE /api/user/{id}
+
+## Course Endpoints
+
+    GET /api/course
+    GET /api/course/{id}
+    POST /api/course
+    PUT /api/course/{id}
+    DELETE /api/course/{id}

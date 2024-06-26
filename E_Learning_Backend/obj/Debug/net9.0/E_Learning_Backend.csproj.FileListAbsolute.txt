@@ -139,3 +139,5 @@ C:\perso\E-learning-Platform\E_Learning_Backend\obj\Debug\net9.0\ref\E_Learning_
 C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\MySqlConnector.dll
+C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll

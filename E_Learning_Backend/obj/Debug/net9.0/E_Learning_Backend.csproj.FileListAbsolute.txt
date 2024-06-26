@@ -136,3 +136,6 @@ C:\perso\E-learning-Platform\E_Learning_Backend\obj\Debug\net9.0\refint\E_Learni
 C:\perso\E-learning-Platform\E_Learning_Backend\obj\Debug\net9.0\E_Learning_Backend.pdb
 C:\perso\E-learning-Platform\E_Learning_Backend\obj\Debug\net9.0\E_Learning_Backend.genruntimeconfig.cache
 C:\perso\E-learning-Platform\E_Learning_Backend\obj\Debug\net9.0\ref\E_Learning_Backend.dll
+C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\perso\E-learning-Platform\E_Learning_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

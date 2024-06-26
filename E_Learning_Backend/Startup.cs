@@ -22,18 +22,34 @@ public class Startup
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
     {
-        if (env.IsDevelopment())
-        {
-            app.UseDeveloperExceptionPage();
-        }
-
-        app.UseHttpsRedirection();
-        app.UseRouting();
-        app.UseAuthorization();
-        app.UseEndpoints(endpoints =>
-        {
-            endpoints.MapControllers();
-        });
+        app.UseDeveloperExceptionPage();
     }
+
+    // Commenter ou supprimer cette ligne pour désactiver la redirection HTTPS
+    // app.UseHttpsRedirection();
+
+    app.UseRouting();
+
+    app.UseAuthorization();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+
+    // Enable middleware to serve generated Swagger as a JSON endpoint
+    app.UseSwagger();
+
+    // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+    // specifying the Swagger JSON endpoint.
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "E-Learning API V1");
+        c.RoutePrefix = string.Empty; // To serve the Swagger UI at the app's root (http://localhost:<port>/)
+    });
+}
+
 }

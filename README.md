@@ -1,5 +1,3 @@
-# E-Learning Platform
-
 ![E-Learning Platform](https://via.placeholder.com/800x200.png?text=E-Learning+Platform)
 
 An advanced e-learning platform for managing courses, students, and evaluations, built with ASP.NET Core and MySQL.
